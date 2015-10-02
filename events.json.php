@@ -3,19 +3,19 @@
 	"result": [
 		{
 			"id": "293",
-			"title": "This is warning class event with very long title to check how it fits to evet in day view",
+			"title": "REGISTRATION",
 			"url": "http://www.example.com/",
 			"class": "event-warning",
-			"start": "1362938400000",
-			"end":   "1363197686300"
+			"start": "1453402800000",
+			"end":   "1453413600000"
 		},
 		{
 			"id": "256",
-			"title": "Event that ends on timeline",
+			"title": "OPENING CEREMONIES",
 			"url": "http://www.example.com/",
 			"class": "event-warning",
-			"start": "1363155300000",
-			"end":   "1363227600000"
+			"start": "1453415400000",
+			"end":   "1453424400000"
 		},
 		{
 			"id": "276",

@@ -145,7 +145,7 @@ if(!String.prototype.formatNum) {
 	};
 
 	var defaults_extended = {
-		first_day: 2,
+		first_day: 1,
 		holidays: {
 			// January 1
 			'01-01': "New Year's Day",

@@ -4,10 +4,10 @@
 
 	var options = {
 		events_source: 'events.json.php',
-		view: 'month',
+		view: 'week',
 		tmpl_path: 'tmpls/',
 		tmpl_cache: false,
-		day: '2013-03-12',
+		day: '2016-01-19',
 		onAfterEventsLoad: function(events) {
 			if(!events) {
 				return;
@@ -63,7 +63,7 @@
 
 	$('#events-in-modal').change(function(){
 		var val = $(this).is(':checked') ? $(this).val() : null;
-		calendar.setOptions({modal: val});
+		calendar.setOptions({modal: true});
 	});
 	$('#format-12-hours').change(function(){
 		var val = $(this).is(':checked') ? true : false;
